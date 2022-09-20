@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cognizant.sportsEventMicroservice.controller.SportsEventControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.787 s - in com.cognizant.sportsEventMicroservice.controller.SportsEventControllerTest

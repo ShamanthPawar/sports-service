@@ -1,0 +1,3 @@
+com\cognizant\sportsEventMicroservice\SportsEventMicroserviceApplicationTests.class
+com\cognizant\sportsEventMicroservice\controller\SportsEventControllerTest.class
+com\cognizant\sportsEventMicroservice\service\SportsEventServiceImplTest.class
