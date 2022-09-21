@@ -16,7 +16,7 @@ public class Sports {
 
 	public Sports() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Sports(long sportsId, int noOfPlayers, String sportsName, String sportsType) {

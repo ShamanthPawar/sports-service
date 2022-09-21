@@ -17,7 +17,6 @@ public class Event {
 
 	public Event() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Event(long eventId, String eventDate, String eventName, int noOfSlots, String sportsName) {

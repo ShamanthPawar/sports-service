@@ -43,7 +43,6 @@ public class SportsEventServiceImpl implements SportsEventService {
 
 	@Override
 	public List<Event> getAllEvents() {
-		System.out.println("dusra");
 		return (List<Event>) this.eventRepo.findAll();
 	}
 
