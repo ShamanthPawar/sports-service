@@ -28,7 +28,7 @@ public class SportsEventController {
 		return this.ses.getAllSports();
 	}
 
-	@GetMapping("/sports/{sportsName}")
+	@GetMapping("/getSportsByName/{sportsName}")
 	@CrossOrigin(origins = "http://localhost:4200")
 	
 	public List<Sports> getSportsByName(@PathVariable String sportsName) {
@@ -42,21 +42,21 @@ public class SportsEventController {
 		return this.ses.getAllEvents();
 	}
 
-	@PostMapping("/events")
+	@PostMapping("/addEvent")
 	@CrossOrigin(origins = "http://localhost:4200")
 	
 	public Event addEvent(@RequestBody Event event) {
 		return this.ses.addEvent(event);
 	}
 
-	@GetMapping("/events/{eventName}")
+	@GetMapping("/eventsByName/{eventName}")
 	@CrossOrigin(origins = "http://localhost:4200")
 	
 	public List<Event> getEventsByName(@PathVariable String eventName) {
 		return this.ses.getEventsByName(eventName);
 	}
 
-	@DeleteMapping("/events/{eventId}")
+	@DeleteMapping("/deleteEvent/{eventId}")
 	@CrossOrigin(origins = "http://localhost:4200")
 	
 	public void deleteEvent(@PathVariable String eventId) {
